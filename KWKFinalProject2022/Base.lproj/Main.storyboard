@@ -317,7 +317,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VAj-pv-AKr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2420" y="1801"/>
+            <point key="canvasLocation" x="-2486" y="2353"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ITX-Ir-Hpx">
@@ -387,21 +387,18 @@ Leg rise
                                 <rect key="frame" x="0.0" y="31" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem id="HZD-zV-alI">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="LOF-43-3FY">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="47i-Xl-yRo">
-                                                <rect key="frame" x="16" y="5" width="86" height="34.333333333333336"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
-                                            </button>
-                                            <connections>
-                                                <segue destination="xYD-8S-Tpl" kind="show" id="LXZ-9a-PjO"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem id="HZD-zV-alI"/>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHg-V7-cQV">
+                                <rect key="frame" x="16" y="86" width="72" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="xYD-8S-Tpl" kind="show" id="vrZ-Lr-oLf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q4F-Pw-db3"/>
                         <color key="backgroundColor" red="0.81960785390000002" green="0.94901961089999998" blue="0.72941178080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -410,7 +407,7 @@ Leg rise
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jru-4k-TXC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4182" y="-509"/>
+            <point key="canvasLocation" x="-4183.0769230769229" y="-509.00473933649289"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dmu-7Q-JdG">
@@ -480,21 +477,18 @@ Leg rise
                                 <rect key="frame" x="0.0" y="31" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem id="Hgs-m2-VgY">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="eLg-6C-igE">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="dRA-Rd-lLa">
-                                                <rect key="frame" x="16" y="5" width="86" height="34.333333333333336"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
-                                            </button>
-                                            <connections>
-                                                <segue destination="xYD-8S-Tpl" kind="show" id="sla-bN-hdj"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem id="Hgs-m2-VgY"/>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gQ-A2-cwi">
+                                <rect key="frame" x="16" y="88" width="64" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="xYD-8S-Tpl" kind="show" id="YNN-cF-EKI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uN5-LO-kJe"/>
                         <color key="backgroundColor" red="0.81960785390000002" green="0.94901961089999998" blue="0.72941178080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -503,7 +497,7 @@ Leg rise
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwa-bW-GsG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4918" y="-51"/>
+            <point key="canvasLocation" x="-4918.4615384615381" y="-51.18483412322275"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YrT-Xn-Pxi">
@@ -517,19 +511,7 @@ Leg rise
                                 <rect key="frame" x="0.0" y="21" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem id="iiT-9i-ehj">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="gOS-HF-w5Q">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="3ol-A7-EFU">
-                                                <rect key="frame" x="16" y="5" width="86" height="34.333333333333336"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
-                                            </button>
-                                            <connections>
-                                                <segue destination="xYD-8S-Tpl" kind="show" id="8qN-Fs-x36"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem id="iiT-9i-ehj"/>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dV-Bc-OEa">
@@ -590,6 +572,15 @@ Leg rise
                                 <color key="textColor" red="0.50196081400000003" green="0.67058825489999996" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZW-Ig-QFF">
+                                <rect key="frame" x="34" y="78" width="65" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="xYD-8S-Tpl" kind="show" id="eNs-lo-4Xj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iLV-L0-3wb"/>
                         <color key="backgroundColor" red="0.81960785390000002" green="0.94901961089999998" blue="0.72941178080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -600,7 +591,7 @@ Leg rise
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oTe-Zi-Lf7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4183" y="250"/>
+            <point key="canvasLocation" x="-4183.0769230769229" y="249.52606635071089"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uEg-cJ-dtA">
@@ -614,19 +605,7 @@ Leg rise
                                 <rect key="frame" x="0.0" y="27" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem id="AzE-sA-T1L">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="F4b-n5-Hdg">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="3gO-TZ-cnL">
-                                                <rect key="frame" x="16" y="5" width="86" height="34.333333333333336"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
-                                            </button>
-                                            <connections>
-                                                <segue destination="LI7-QN-Rfa" kind="show" id="y9F-r8-QWa"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem id="AzE-sA-T1L"/>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SUMMER ROLLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBe-AD-ShU">
@@ -684,6 +663,15 @@ Leg rise
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpR-ND-IJ3">
+                                <rect key="frame" x="16" y="71" width="73" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="LI7-QN-Rfa" kind="showDetail" id="uoh-QV-8ax"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wFh-nI-gSh"/>
                         <color key="backgroundColor" red="0.81960785390000002" green="0.94901961089999998" blue="0.72941178080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -692,7 +680,7 @@ Leg rise
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="khB-7r-5lN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4918" y="1801"/>
+            <point key="canvasLocation" x="-4918.4615384615381" y="1800.7109004739336"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pQP-kE-oBO">
@@ -706,19 +694,7 @@ Leg rise
                                 <rect key="frame" x="0.0" y="27" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem id="Afn-7f-5fc">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="4nI-kv-roq">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="63Q-co-Ob9">
-                                                <rect key="frame" x="16" y="5" width="86" height="34.333333333333336"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
-                                            </button>
-                                            <connections>
-                                                <segue destination="LI7-QN-Rfa" kind="show" id="IOW-wU-Gfj"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem id="Afn-7f-5fc"/>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. blend up your favorite " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orF-Za-YgF">
@@ -774,6 +750,15 @@ Leg rise
                                 <rect key="frame" x="23" y="440" width="339" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVh-h8-aDq">
+                                <rect key="frame" x="16" y="71" width="64" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="LI7-QN-Rfa" kind="show" id="arr-Hg-383"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="g5U-NG-NCA"/>
                         <color key="backgroundColor" red="0.81960785390000002" green="0.94901961089999998" blue="0.72941178080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -782,7 +767,7 @@ Leg rise
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B5t-A7-R7t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4183" y="1322"/>
+            <point key="canvasLocation" x="-4183.0769230769229" y="1321.5639810426539"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qb5-By-QFs">
@@ -796,19 +781,7 @@ Leg rise
                                 <rect key="frame" x="0.0" y="24" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem id="5K6-Dy-tQ8">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="faF-pX-Gs4">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="X8B-pg-CXa">
-                                                <rect key="frame" x="16" y="5" width="86" height="34.333333333333336"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
-                                            </button>
-                                            <connections>
-                                                <segue destination="LI7-QN-Rfa" kind="show" id="2Of-9Y-seJ"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem id="5K6-Dy-tQ8"/>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Bake in the oven" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qo7-bY-CPx">
@@ -857,6 +830,15 @@ Leg rise
                                 <rect key="frame" x="26" y="395" width="339" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSR-LL-rkb">
+                                <rect key="frame" x="16" y="68" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="LI7-QN-Rfa" kind="show" id="Lod-6d-SLx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aW7-ku-zXK"/>
                         <color key="backgroundColor" red="0.81960785390000002" green="0.94901961089999998" blue="0.72941178080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -865,7 +847,7 @@ Leg rise
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o8c-Yr-v1w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4183" y="2174"/>
+            <point key="canvasLocation" x="-4183.0769230769229" y="2173.9336492890993"/>
         </scene>
         <!--Physical Health-->
         <scene sceneID="uBd-wu-rPq">
@@ -1524,7 +1506,7 @@ Leg rise
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="44" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQj-fm-kRe">
                                                 <rect key="frame" x="26" y="877" width="346" height="494"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text"> Using the SMART method: they should make sure that they have a specific goal in mind. In this case, it is to exercise more. The problem is, the word “more” is not measurable. They should define what “more” means. If they decide that working out 7 days a week is “more” to them, then they have completed the next step. Looking at A, attainable, their goal of 7 days a week is unattainable, because that amount of exercise leads to burnout and muscular issues. If they adjust it to something more manageable, such as 5 days a week, they have completed the next step. Looking at R, realistic, this goal seems possible for this person. Lastly, this person must evaluate if this goal is T, timely. By evaluating this proposed habit, this person can decide if they can feasibly create time in their schedule to create this habit. If the answer is yes, then this person has successfully thought of a healthy habit!</mutableString>
+                                                <string key="text"> Using the SMART method: they should make sure that they have a specific goal in mind. In this case, it is to exercise more. The problem is, the word “more” is not measurable. They should define what “more” means. If they decide that working out 7 days a week is “more” to them, then they have completed the next step. Looking at A, attainable, their goal of 7 days a week is unattainable, because that amount of exercise leads to burnout and muscular issues. If they adjust it to something more manageable, such as 5 days a week, they have completed the next step. Looking at R, realistic, this goal seems possible for this person. Lastly, this person must evaluate if this goal is T, timely. By evaluating this proposed habit, this person can decide if they can feasibly create time in their schedule to create this habit. If the answer is yes, then this person has successfully thought of a healthy habit!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.50196081400000003" green="0.67058825489999996" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -1646,11 +1628,11 @@ Leg rise
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="FoI-Wz-VT4"/>
-        <segue reference="e0d-kj-fpQ"/>
-        <segue reference="NYe-nC-vqm"/>
-        <segue reference="gTb-er-hYv"/>
-        <segue reference="eE3-dS-Kfg"/>
+        <segue reference="w6D-Fk-BoA"/>
+        <segue reference="uoR-cI-mQq"/>
+        <segue reference="Ebj-2u-1JN"/>
+        <segue reference="Xwb-1g-Sud"/>
+        <segue reference="sQc-Vk-z4S"/>
         <segue reference="7Ww-5J-0nt"/>
         <segue reference="jNG-P5-Wig"/>
     </inferredMetricsTieBreakers>
